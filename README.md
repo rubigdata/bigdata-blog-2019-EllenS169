@@ -1,18 +1,24 @@
-# Sample blog 
+# Ellen's blog 
 
-This is a sample blog using Markdown. Edit this file in order to create your own content. 
+This is my Markdown sample blog. Below I am trying out how to use bullet lists (once ordered and once unordered)
 
-Some useful features in markdown are:
-- bulleted lists
-- of multiple items
+This is an unordered bulletlist:
+- first item
+- second item
+- third item
 
-# Headers
+This is an ordered bulletlist:
+1. item
+2. item
+3. item
 
-## Subheaders
+# A very interesting header
 
-**Bold** and *Italic* markup.
+## An even more interesting subheader
 
-You can use explicit links, e.g., to the [course site](https://rubigdata.github.io/).
+If you want to stress something you can use **Bold** and *Italic* markup.
+
+Here is  the link to the [course site on brightspace](https://brightspace.ru.nl/d2l/home/13189).
 
 And lots more, to see what you can do with Markdown (including images, and tables) take a look at the [Cheatsheet][cheat] (an example of a very useful feature to separate actual links from their references in your text).
 
