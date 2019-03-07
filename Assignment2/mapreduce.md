@@ -4,7 +4,7 @@ In this blog post we are going to discuss the following two topics:
 - Counting the number of words in *Shakespeare* using Map-Reduce
 
 
-##Basic Hadoop Commands
+## Basic Hadoop Commands
 | Command                            | Meaning                                                                     |
 | -----------------------------------  | ------------------------------------------------------------------    |
 | `sbin/start-dfs.sh`                 | Starting HDFS, this also includes NameNode, Secondary NameNode and DataNodes |
