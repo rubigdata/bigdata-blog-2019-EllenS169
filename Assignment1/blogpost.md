@@ -1,4 +1,4 @@
-#Ellen's Blog 
+# Ellen's Blog 
 
 This is my Markdown sample blog. Below I am trying out how to use bullet lists (once ordered and once unordered)
 
