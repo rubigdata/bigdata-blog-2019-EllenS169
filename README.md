@@ -8,3 +8,6 @@ This assignment explains very basic docker commands and explains map reduce on a
 
 ## Hackathon
 In this assignment we tried to implement a basic recommender system based on collaborative filtering and alternating least squares. If you are interested in seeing the final submission, click [here](https://github.com/rubigdata/bdr-hackaton-2019-EllenS169/blob/master/final_submission.ipynb).
+
+## Spark
+In this assignment we explained the internal workings of Spark. If you want to read more, click [here](Assignment2/assignment3.md).
