@@ -18,25 +18,25 @@ After downloading the WARC file we will perform some basic computations on the f
 As can be seen from the output there are 530 pages in total with the WARC type response. 
 Below, we will count all pages that contain BBC in the text (so not in the url).
 
-[bbc_pages](count_pages_bbc.PNG)
+![bbc_pages](count_pages_bbc.PNG)
 
 411 of the 530 pages contain the word bbc. I was also interested in which pages do not contain the word as it was a crawl over the bbc webpage (second page). Here you can see one of the disadvantages of working with real data. The content of the saved url is clearly giberish. Thus, does not contain real value. For further research it would be a good idea to get rid of data points like this one. 
 
 Afterwards I counted some more interesting words such as **world**, **news** and **europe**.
 
-[more_words](more_interesting_words.PNG)
+![more_words](more_interesting_words.PNG)
 
 During one of the last lectures, we learned that one of the main problems with performing webcrawls is finding similar webpages. So, I was interesting whether I made a webcrawl over the same webpage multiple times. Thus, I counted how often individual links occur. Noteable, was that the link **<https://bbc.com/weather>** occured multiple times. Thus, I first wanted to try to implement locality sensitive hashing. However, after a while I realised that this is too difficult. To still be able to compare the data points I tried to calculate the Jaccard distance between the webpages. Unfortunately, I also did not manage to work with shingles. Thus, I compared the webpages character by character. And only calculated their difference and their intersection. Noteable was that some of the webpages seemed to be quite similar with differences between 87-237 characters of 2000. Important to note is that comparing "Today I will sleep until eight" with "Today I will sleep until nine"  already has a difference of "eight" so five characters. Therefore, the pages seem to be similar. 
 
-[sortedUrls](sortedUrls.PNG)
+![sortedUrls](sortedUrls.PNG)
 
 Next, I was interested in the occurence of some words over all documents. Thus, I run a simple word count over all pages. To do so, I first needed to remove all special characters and remove all empty words. Then, I mapped all words together with a count (one in this case) and reduced them on the value. Afterwards, I sorted the wordCounts by value to get the highest occuring words across pages.
 
-[words](counting_words.png)
+![words](counting_words.png)
 
 Below you can find the counts of some interesting words. Of course, I first cached sorted in memory to reduce processing time.
 
-[interesting_words](example_word_counts.PNG)
+![interesting_words](example_word_counts.PNG)
 
 Before creating my own standalone Spark application, I first run the RUBigDataApp application
 
