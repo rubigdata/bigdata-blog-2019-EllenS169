@@ -13,4 +13,4 @@ In this assignment we tried to implement a basic recommender system based on col
 In this assignment we explained the internal workings of Spark. If you want to read more, click [here](Assignment3/assignment3.md).
 
 ## Self contained application
-In this assignment we try to create a self contained application. However, due to problems this is unforunately not possile. If you want to read more, click [here] (Final Project/Final_project.md)
+In this assignment we try to create a self contained application. However, due to problems this is unforunately not possile. If you want to read more, click [here] (FinalProject/Final_project.md)
