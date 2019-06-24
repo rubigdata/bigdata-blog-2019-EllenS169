@@ -38,8 +38,9 @@ Below you can find the counts of some interesting words. Of course, I first cach
 
 ![interesting_words](example_word_counts.PNG)
 
-Before creating my own standalone Spark application, I first run the RUBigDataApp application
+Before creating my own standalone Spark application, I first run the RUBigDataApp application. 
 
+![output](output.PNG)
 
 
 Unfortunately, I was not able to create my own standalone application. I first downloaded the notebook as a scala file. Then I was able to fix one error by adding the dependency Jsoup to the build file.
@@ -54,12 +55,12 @@ Furthermore, I also got errors that *reset* and *lastChanges* cannot be found. B
 
 ![error](error.PNG)
 
-I tried out several things more multiple hours. I also tried to follow the link in the notebook about [self contained apps](https://rubigdata.github.io/course/background/sbt.html). However, I run into problems already in the last line of preparations as my java version was to old. I then tried for several hours with several different tutorials to update my java version. However, this seemed to be quite a problem due to the new license regulations of Oracle and also my lack of knowledge about linux (as I only use it for this course). So unfortunately, after 12 hours of just trying to convert my spark notebook into a self contained app (the rest I already did in the weeks prior), I unfortunately had to give up. 
+I tried out several more things multiple hours including following the tutorial in the notebook about [self contained apps](https://rubigdata.github.io/course/background/sbt.html). However, I run into problems already in the last line of the preparation section as my java version was too old. I then tried for several hours with multiple different tutorials to update my java version. However, this seemed to be quite a problem due to the new license regulations of Oracle and also my lack of knowledge about linux (as I only use it for this course). So unfortunately, after 12 hours of just trying to convert my Spark notebook into a self contained app (the rest I already did in the weeks prior), I unfortunately had to give up. 
+
+Below you can see the error:
+
+![problem_jdk](problem_jdk.PNG)
 
 If it would be somehow possible, I would love to know what I did wrong and what at least the main reasons for my errors were. I know that I did not finish the main part of the assignment, but I hope that it is still possible to see that I put lots of effort in and tried to make it working.
 
 Happy summer holidays! 
-
-
-
- of trouble trying to get sbt work with JDK 1.7, since I usually do not use ubuntu or another linux distribution I unfortunately did not manage to change my JDK distribution. I wrote a more existensive 
